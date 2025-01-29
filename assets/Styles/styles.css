@@ -8,7 +8,10 @@
   text-decoration-skip-ink: none;
   list-style: none;
 }
-
+a:visited  {
+  text-decoration: none;
+  border: 1px red solid;
+}
 body {
   max-width: 375px;
   background-color: black;
@@ -24,6 +27,10 @@ header {
   justify-content: center;
   flex-direction: column;
   background: #ffffff;
+}
+header img{
+  width: 100%;
+height: auto;
 }
 
 .logo {
@@ -207,6 +214,7 @@ h1 {
   width: 90%;
   width: 346px;
   height: 100%;
+  cursor: pointer;
 }
 .vignette img {
   display: flex;
@@ -312,6 +320,8 @@ footer {
 .footer-liens i {
   padding-right: 10px;
 }
+
+
 
 @media screen and (min-width: 450px) {
   body {
